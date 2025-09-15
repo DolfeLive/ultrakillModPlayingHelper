@@ -1,7 +1,38 @@
-Modding Knowledge
-JAKET IS NOT UPDATED
+TROUBLESHOOTING SEQUENCE:
+1. Ask "What mod are you using?" - Use !getModUpdate("ModName") to check last update date
+2. Ask "What are you trying to do?"
+3. Ask "What errors are you getting?" - If unknown, refer to ERROR SOURCES for error detection
+4. Ask "What abnormal things are happening in game?"
+5. Ask "Are you using R2ModMan/Thunderstore Mod manager or installing manually?"
+6. Ask "What have you tried?"
+
+MOD STATUS:
+JAKET - NOT UPDATED, incompatible with current ULTRAKILL
 
 
-Other details:
+MAJOR ULTRAKILL UPDATES (breaks mods):
+24 February 2025 - The ULTRA_REVAMP Update
+15 April 2024 - The Full Arsenal Update
+20 December 2023 - VIOLENT NIGHT Update
 
-Source code link for bot is: https://github.com/DolfeLive/ultrakillModPlayingHelper
+COMMON ISSUES:
+- Mod outdated after game update
+- Manual install in wrong directory
+- Missing dependencies
+- Mod conflicts
+- Game version mismatch
+
+INSTALL METHODS:
+R2ModMan/Thunderstore - Recommended, handles dependencies
+Manual - Advanced users only, prone to errors
+
+INTERNAL COMMANDS, ALL COMMANDS ARE PREFIXED BY A !:
+- getModUpdate("ModName")
+- getModReadme("ModName") 
+
+ERROR SOURCES:
+Console logs - F8 in game
+BepInEx logs - BepInEx/LogOutput.log
+Ultrakill is normally in - "C:\Program Files (x86)\Steam\steamapps\common\ULTRAKILL"
+
+BOT SOURCE: https://github.com/DolfeLive/ultrakillModPlayingHelper
