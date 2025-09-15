@@ -1,0 +1,13 @@
+creds.txt
+
+discord-bot-env/
+venv/
+env/
+.env/
+
+__pycache__/
+*.pyc
+*.pyo
+
+*.vscode/
+.idea/
