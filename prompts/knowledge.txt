@@ -4,4 +4,4 @@ JAKET IS NOT UPDATED
 
 Other details:
 
-Source code link for bot is: 
+Source code link for bot is: https://github.com/DolfeLive/ultrakillModPlayingHelper
